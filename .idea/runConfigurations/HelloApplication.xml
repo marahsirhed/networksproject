@@ -4,7 +4,7 @@
     <module name="Networks1-Project" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="com.example.networks1project.*" />
+        <option name="PATTERN" value="com.example.networks1project.controller.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>

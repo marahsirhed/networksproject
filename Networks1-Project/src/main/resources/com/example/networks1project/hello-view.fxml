@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.networks1project.UDPGUIController">
+<BorderPane prefHeight="563.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.networks1project.controller.UDPGUIController">
 
     <top>
         <HBox alignment="CENTER_LEFT" style="-fx-background-color: #e1e1e1; -fx-border-color: #ccc; -fx-border-width: 0 0 1 0;">
@@ -51,6 +51,7 @@
                 </ListView>
 
                 <TextArea fx:id="EnterTextArea" prefHeight="70" promptText="enter text here" />
+            <Button fx:id="archiveButton" mnemonicParsing="false" onAction="#archiveMessage" prefHeight="26.0" prefWidth="73.0" text="Archive" textFill="#690b03" />
             </VBox>
 
             <!-- Right Panel -->
